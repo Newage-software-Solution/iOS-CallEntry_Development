@@ -185,14 +185,14 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flag" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Fd-sJ3">
-                                                        <rect key="frame" x="25" y="16" width="49.000000000000014" height="49.000000000000014"/>
+                                                        <rect key="frame" x="25" y="16" width="49" height="49"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="49" id="V1v-7f-DTu"/>
                                                             <constraint firstAttribute="width" constant="49" id="rHZ-FT-9pC"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oh great! you had broken your previous record and today’s targe" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gF3-0D-NoG">
-                                                        <rect key="frame" x="91" y="16" width="165" height="49.5"/>
+                                                        <rect key="frame" x="91" y="16" width="165" height="49"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
                                                         <color key="textColor" red="0.10980392156862745" green="0.10980392156862745" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -214,7 +214,7 @@
                                                 <rect key="frame" x="263" y="0.0" width="94" height="81"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgn-Xu-r1M">
-                                                        <rect key="frame" x="29.5" y="10" width="35.5" height="9"/>
+                                                        <rect key="frame" x="31" y="10" width="32" height="9"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="9" id="qU8-d9-Jjb"/>
                                                         </constraints>
@@ -229,7 +229,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calls/day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLJ-Ow-g41">
-                                                        <rect key="frame" x="29.5" y="66" width="35.5" height="8"/>
+                                                        <rect key="frame" x="31" y="66" width="32" height="8"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="8" id="scQ-az-CRC"/>
                                                         </constraints>
@@ -238,10 +238,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="awardRight" translatesAutoresizingMaskIntoConstraints="NO" id="EMU-LM-5eT">
-                                                        <rect key="frame" x="65" y="11" width="29" height="59"/>
+                                                        <rect key="frame" x="63" y="11" width="31" height="59"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="awardLeft" translatesAutoresizingMaskIntoConstraints="NO" id="UlS-ly-w5m">
-                                                        <rect key="frame" x="0.0" y="11" width="29.5" height="59"/>
+                                                        <rect key="frame" x="0.0" y="11" width="31" height="59"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
@@ -348,7 +348,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dashboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPg-DI-WnP">
-                                        <rect key="frame" x="146.5" y="30.5" width="82.5" height="20"/>
+                                        <rect key="frame" x="146" y="30.5" width="83.5" height="20"/>
                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -571,7 +571,7 @@
                                 <rect key="frame" x="0.0" y="146" width="375" height="521"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Calls Associated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaV-gn-1QN">
-                                        <rect key="frame" x="116" y="251" width="143.5" height="19"/>
+                                        <rect key="frame" x="115.5" y="251" width="144.5" height="19"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
