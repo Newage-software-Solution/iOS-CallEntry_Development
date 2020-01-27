@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="datePickerCell" id="KGk-i7-Jjw" customClass="TextFieldHMDatePickerTableViewCell" customModule="CallEntry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OT8-fS-84o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Closure Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAT-Os-tGj">
+                                <rect key="frame" x="21" y="14" width="101" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="2db-Rs-4aO"/>
+                                    <constraint firstAttribute="height" constant="15" id="UYb-3H-9EV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R18-Kq-dqt" customClass="HMCompoField" customModule="CallEntry" customModuleProvider="target">
+                                <rect key="frame" x="21" y="34" width="283" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="ud4-4E-Oun"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendarRed" translatesAutoresizingMaskIntoConstraints="NO" id="4kB-og-sTb">
+                                <rect key="frame" x="290" y="40" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="npX-6C-klR"/>
+                                    <constraint firstAttribute="height" constant="14" id="oKe-sK-aFf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4kB-og-sTb" firstAttribute="centerY" secondItem="R18-Kq-dqt" secondAttribute="centerY" id="99m-qF-Bea"/>
+                            <constraint firstItem="R18-Kq-dqt" firstAttribute="top" secondItem="fAT-Os-tGj" secondAttribute="bottom" constant="5" id="Occ-QZ-TQA"/>
+                            <constraint firstAttribute="trailing" secondItem="R18-Kq-dqt" secondAttribute="trailing" constant="16" id="TU1-N1-Xxb"/>
+                            <constraint firstItem="fAT-Os-tGj" firstAttribute="top" secondItem="OT8-fS-84o" secondAttribute="top" constant="14" id="a6s-Cq-by1"/>
+                            <constraint firstAttribute="bottom" secondItem="R18-Kq-dqt" secondAttribute="bottom" constant="8" id="cnS-wM-qsf"/>
+                            <constraint firstAttribute="trailing" secondItem="4kB-og-sTb" secondAttribute="trailing" constant="16" id="dGE-Bm-qyA"/>
+                            <constraint firstItem="fAT-Os-tGj" firstAttribute="leading" secondItem="OT8-fS-84o" secondAttribute="leading" constant="21" id="gHT-75-kFF"/>
+                            <constraint firstItem="R18-Kq-dqt" firstAttribute="leading" secondItem="OT8-fS-84o" secondAttribute="leading" constant="21" id="pve-us-bHl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="OT8-fS-84o" secondAttribute="bottom" id="NbB-J5-MfM"/>
+                    <constraint firstAttribute="trailing" secondItem="OT8-fS-84o" secondAttribute="trailing" id="Ncj-YX-2Y4"/>
+                    <constraint firstItem="OT8-fS-84o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ifi-7e-uHC"/>
+                    <constraint firstItem="OT8-fS-84o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mWp-Oq-6fH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="fAT-Os-tGj" id="bl6-qD-yUV"/>
+                <outlet property="textFieldDatePicker" destination="R18-Kq-dqt" id="na7-rQ-I3c"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendarRed" width="13" height="14"/>
+    </resources>
+</document>

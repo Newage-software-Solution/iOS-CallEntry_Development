@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.9.0)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - LGSideMenuController (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - LGSideMenuController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - LGSideMenuController
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+
+PODFILE CHECKSUM: 92a1fc8a9a42c97323e155b86da63b7fdbd93eab
+
+COCOAPODS: 1.8.3

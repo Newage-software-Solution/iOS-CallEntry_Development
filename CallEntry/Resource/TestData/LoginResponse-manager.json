@@ -1,0 +1,15 @@
+{
+    "statuscode": 200,
+    "statusmessage": "Success",
+    "logindetail": {
+        "userid": "101",
+        "usertoken": "kjafkdashfhakjkjahdsd",
+        "ismanager": "Y",
+        "userdetail": {
+            "name": "siva",
+            "emailid": "siva@gmail.com",
+            "phoneno": "8248795705",
+            "picture": ""
+        }
+    }
+}

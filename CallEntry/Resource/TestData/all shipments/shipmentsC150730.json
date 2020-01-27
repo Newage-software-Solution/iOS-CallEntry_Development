@@ -1,0 +1,36 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipments":
+ {
+    "custid": "C150730",
+    "history": [
+      {
+        "shipmentno": "#180118000386 ",
+        "date": "29/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "N",
+        "origin": "MILAN (MALPENSA)",
+        "destination": "DUBAI",
+        "etd": "31/01/2018",
+        "eta": "31/03/2018",
+        "bookingperson": "Rajesh",
+        "update": "Expected time of cargo will be end of march"
+      },
+      {
+        "shipmentno": "#110118000009 ",
+        "date": "29/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "N",
+        "origin": "MILAN (MALPENSA)",
+        "destination": "DUBAI",
+        "etd": "31/12/2017",
+        "eta": "28/02/2018",
+        "bookingperson": "Jaffer Sheriff",
+        "update": "Cargo safely reached the Port and waiting for Custom clearance"
+      }
+    ]
+  }
+}

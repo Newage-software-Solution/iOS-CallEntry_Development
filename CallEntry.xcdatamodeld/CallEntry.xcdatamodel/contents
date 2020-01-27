@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CallHistoryDB" representedClassName="CallHistoryDB" syncable="YES" codeGenerationType="class">
+        <attribute name="calldate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobileno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesman" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CustomerListDB" representedClassName="CustomerListDB" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactperson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobileno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="potentialforclearance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="potentialforwarehousing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="territory" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="callhistory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CallHistoryDB" syncable="YES"/>
+        <relationship name="profile" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProfileDB" syncable="YES"/>
+    </entity>
+    <entity name="ProfileDB" representedClassName="ProfileDB" syncable="YES" codeGenerationType="class">
+        <attribute name="closuredate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commoditygroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentpotential" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destination" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estimatedrevenue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noofshipments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="segment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CallHistoryDB" positionX="127.82421875" positionY="355.93359375" width="128" height="105"/>
+        <element name="CustomerListDB" positionX="-308.33203125" positionY="78.9609375" width="128" height="255"/>
+        <element name="ProfileDB" positionX="-5.0078125" positionY="19.1640625" width="128" height="240"/>
+    </elements>
+</model>

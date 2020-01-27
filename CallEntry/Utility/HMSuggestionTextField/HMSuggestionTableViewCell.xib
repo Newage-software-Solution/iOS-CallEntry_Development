@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HMSuggestionTableViewCellID" id="KGk-i7-Jjw" customClass="HMSuggestionTableViewCell" customModule="CallEntry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="34.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfG-uc-7gF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="34.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pr-TK-3AI">
+                                <rect key="frame" x="10" y="0.0" width="310" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZZ-Ok-Wn8">
+                                <rect key="frame" x="10" y="33.5" width="310" height="0.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="wEe-XB-ewV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jZZ-Ok-Wn8" secondAttribute="trailing" id="8hO-31-R7d"/>
+                            <constraint firstAttribute="trailing" secondItem="4pr-TK-3AI" secondAttribute="trailing" id="9rT-wI-zwi"/>
+                            <constraint firstItem="4pr-TK-3AI" firstAttribute="leading" secondItem="SfG-uc-7gF" secondAttribute="leading" constant="10" id="Oz7-p8-gcY"/>
+                            <constraint firstItem="4pr-TK-3AI" firstAttribute="top" secondItem="SfG-uc-7gF" secondAttribute="top" id="Riv-Ss-VcG"/>
+                            <constraint firstItem="jZZ-Ok-Wn8" firstAttribute="leading" secondItem="SfG-uc-7gF" secondAttribute="leading" constant="10" id="Sjt-6O-mZK"/>
+                            <constraint firstAttribute="bottom" secondItem="jZZ-Ok-Wn8" secondAttribute="bottom" id="bxp-xh-Cqw"/>
+                            <constraint firstItem="jZZ-Ok-Wn8" firstAttribute="top" secondItem="4pr-TK-3AI" secondAttribute="bottom" id="h53-Oe-vXd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="SfG-uc-7gF" secondAttribute="bottom" id="Lem-At-tUu"/>
+                    <constraint firstItem="SfG-uc-7gF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OF1-FG-fpy"/>
+                    <constraint firstAttribute="trailing" secondItem="SfG-uc-7gF" secondAttribute="trailing" id="Qu8-iH-AiF"/>
+                    <constraint firstAttribute="trailing" secondItem="SfG-uc-7gF" secondAttribute="trailing" id="VVR-Qm-cah"/>
+                    <constraint firstItem="SfG-uc-7gF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Y6u-Kc-wjw"/>
+                    <constraint firstItem="SfG-uc-7gF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Z7l-N3-tbF"/>
+                    <constraint firstItem="SfG-uc-7gF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fMm-Uu-sqa"/>
+                    <constraint firstAttribute="bottom" secondItem="SfG-uc-7gF" secondAttribute="bottom" id="r50-Xg-w0z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="containerView" destination="SfG-uc-7gF" id="K6A-FP-Gf8"/>
+                <outlet property="lblSuggestion" destination="4pr-TK-3AI" id="eE2-O8-CrD"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,65 @@
+{
+    "statuscode": 200,
+    "statusmessage": "Success",
+    "masterdata": {
+        "calltype": [
+                     {
+                     "category": "New",
+                     "subcategory": [
+                                     "COURTESY / RELATIONSHIP CALL",
+                                     "DEEP SELL / NEGOTIATION",
+                                     "SERVICE CALL",
+                                     "CREDIT / COLLECTION CALL",
+                                     "SUSPECT",
+                                     "APPROACH",
+                                     "PROSPECT",
+                                     "NEGOTIATION",
+                                     "CLOSE",
+                                     "TRANSITION"
+                                     ]
+                     },
+                     {
+                     "category": "Existing",
+                     "subcategory": [
+                                     "COURTESY / RELATIONSHIP CALL",
+                                     "DEEP SELL / NEGOTIATION",
+                                     "SERVICE CALL",
+                                     "CREDIT / COLLECTION CALL",
+                                     "SUSPECT",
+                                     "APPROACH",
+                                     "PROSPECT",
+                                     "NEGOTIATION",
+                                     "CLOSE",
+                                     "TRANSITION"
+                                     ]
+                     }
+                     ],
+        "followupaction": [
+                           "FOLLOW-UP",
+                           "QUOTATION / SOLUTION",
+                           "JOINT CALLS",
+                           "NEED ASSESSMENT CALL",
+                           "IT SOLUTION CALL",
+                           "TRANSITION CALL"
+                           ],
+        "callmode": [
+                     "Phone",
+                     "Visit",
+                     "Mail"
+                     ],
+        "period": [
+                   "Monthly",
+                   "Weekly"
+                   ],
+        "types": [
+                  "Import",
+                  "Export"
+                  ],
+        "tos": [
+                "FOB"
+                ],
+        "commoditygroup": [
+                           ""
+                           ]
+    }
+}

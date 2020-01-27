@@ -1,0 +1,1519 @@
+{
+    "statuscode": "200",
+    "statusmessage": "Success",
+    "calllist": [
+                 {
+                 "callid": "20180418049",
+                 "createddate": "18-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0007274",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "18-APR-18",
+                               "followupdate": "19-APR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "Check the value in graph",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180418072",
+                 "createddate": "18-APR-18",
+                 "type": "",
+                 "subtype": "SERVICE CALL",
+                 "custid": "C0050318",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "18-APR-18",
+                               "followupdate": "26-MAY-18",
+                               "action": "COMPLAIN-> OPERATIONS",
+                               "desc": "hxfjcjvjvjhcfjjv hjjg",
+                               "mode": "MAIL"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180411048",
+                 "createddate": "11-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C707603",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "11-APR-18",
+                               "followupdate": "20-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Pandu reg sea export shipment from Chennai to Fremantle",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180417048",
+                 "createddate": "17-APR-18",
+                 "type": "NEW",
+                 "subtype": "SUSPECT",
+                 "custid": "C0050318",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "17-APR-18",
+                               "followupdate": "18-APR-18",
+                               "action": "SERVICE CALL",
+                               "desc": "Check the Phone call mode",
+                               "mode": "PHONE"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180417019",
+                 "createddate": "17-APR-18",
+                 "type": "",
+                 "subtype": "COURTESY / RELATIONSHIP CALL",
+                 "custid": "C026141",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "17-APR-18",
+                               "followupdate": "18-MAY-18",
+                               "action": "WAREHOUSE CALL",
+                               "desc": "sample testing app",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180417030",
+                 "createddate": "17-APR-18",
+                 "type": "NEW",
+                 "subtype": "SUSPECT",
+                 "custid": "C0007274",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "17-APR-18",
+                               "followupdate": "18-APR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "Check the Call list",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180417018",
+                 "createddate": "17-APR-18",
+                 "type": "",
+                 "subtype": "COURTESY / RELATIONSHIP CALL",
+                 "custid": "C026141",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "17-APR-18",
+                               "followupdate": "18-MAY-18",
+                               "action": "WAREHOUSE CALL",
+                               "desc": "sample testing app",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180417038",
+                 "createddate": "17-APR-18",
+                 "type": "NEW",
+                 "subtype": "SUSPECT",
+                 "custid": "C0005126",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "17-APR-18",
+                               "followupdate": "17-APR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "Check the Call list",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180417041",
+                 "createddate": "17-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0001336",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "17-APR-18",
+                               "followupdate": "18-APR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "Check the call mode",
+                               "mode": "MAIL"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416046",
+                 "createddate": "16-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C819314",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "13-APR-18",
+                               "action": "",
+                               "desc": "Customer will provide the enuiry from next for Air shpts.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416051",
+                 "createddate": "16-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C077920",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "13-APR-18",
+                               "action": "",
+                               "desc": "Couldnt able to meet the customer since was not available in office. Will follow up for appointment.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416040",
+                 "createddate": "16-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C996304",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "13-APR-18",
+                               "action": "",
+                               "desc": "Apporached for export enquiry, customer have some order by next week and will forward us.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416039",
+                 "createddate": "16-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0014995",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "13-APR-18",
+                               "action": "",
+                               "desc": "Just had casual visti, Customer has monthly one or two shpts and customer told even Air shpts will support us.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416038",
+                 "createddate": "16-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C817490",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "13-APR-18",
+                               "action": "",
+                               "desc": "Customer have LCL export shpts, Customer will forward the enqiiries by this month end.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416025",
+                 "createddate": "16-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C898555",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "13-APR-18",
+                               "action": "",
+                               "desc": "Customer has US Air imports, Approached customer trial shpts and customer will check and will let us know.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413054",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C905328",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "16-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Raman reg export shipments from Chennai to USA. awaiting for appoinments",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180416050",
+                 "createddate": "16-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "COURTESY / RELATIONSHIP CALL",
+                 "custid": "C969698",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "16-APR-18",
+                               "followupdate": "20-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with M/s. Annapoorani reg sea import shipment from SHA to MAA. awaiting for enquiry",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413030",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C855100",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "",
+                               "desc": "Customer dont have the orders for this month and planning from few shpts and customer will forward the enquiries to us.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413031",
+                 "createddate": "13-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "APPROACH",
+                 "custid": "C995576",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "",
+                               "desc": "Just had casual meeting, customer will give some new projects enquiries by month.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413028",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0034488",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "",
+                               "desc": "Concern person has been changed, met new person and discussed about the shpts. Customer will forward the enquiries from next week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413048",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C076050",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "",
+                               "desc": "Customer was not available in office and called him over the phone. customer told to come next week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180411050",
+                 "createddate": "11-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C692386",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "11-APR-18",
+                               "followupdate": "20-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "awaiting for appoinment with Mr. Patabi",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413047",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C804783",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "11-APR-18",
+                               "action": "",
+                               "desc": "Customer is doing the shpts with 290cube and aproaching for one trail shpts.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413033",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C874476",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "11-APR-18",
+                               "action": "",
+                               "desc": "Previous were very high hence cutomer didnt float the enquiries to us. Approached customer again for the LCL Enquiries and customer will send from next shpt.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413040",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0062975",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "11-APR-18",
+                               "action": "",
+                               "desc": "Customer was very busy with his customer hence couldnt able to meet. Customer asked to me call and come on next Monday.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413032",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C081072",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "11-APR-18",
+                               "action": "",
+                               "desc": "Had appointment with customer but all of sudden customer engaged with some imported meeting with the Senior Mangers hence couldnt able to meet the customer.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180411046",
+                 "createddate": "11-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C091660",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "11-APR-18",
+                               "followupdate": "17-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Nagarajan reg sea export shipment from Chennai to Dammam. awaiting for enquiry",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410090",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C762981",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "17-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Dscussed with Mr.harikrishnan reg sea import shipment from USA to MAA. awaiting for enquiry",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410083",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C779849",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "11-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "New order has received",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410043",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "CLOSE",
+                 "custid": "C0005126",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "SERVICE CALL",
+                               "desc": "Close the service call",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410032",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "SUSPECT",
+                 "custid": "C0007274",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "Creating new call for demo",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180413049",
+                 "createddate": "13-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C696094",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "13-APR-18",
+                               "followupdate": "10-APR-18",
+                               "action": "",
+                               "desc": "RFQ rates were higher hence we lost and following up for June's RFQ.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410034",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "SUSPECT",
+                 "custid": "C0005126",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "12-APR-18",
+                               "action": "JOINT CALLS",
+                               "desc": "Creating new call for demo",
+                               "mode": "PHONE"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410085",
+                 "createddate": "10-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "COURTESY / RELATIONSHIP CALL",
+                 "custid": "C077330",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "11-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. lakshmipathy reg sea import LCL shipment from Genoa to Chennai. we got the booking",
+                               "mode": "PHONE"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410045",
+                 "createddate": "10-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "APPROACH",
+                 "custid": "C985316",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "07-APR-18",
+                               "action": "",
+                               "desc": "on 5th March, Had payment issue with customer hence met customer and customer will clear the all dues by this week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410049",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C971023",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "07-APR-18",
+                               "action": "",
+                               "desc": "Didnt take appointment, but customer didnt encourage and told me to come next week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410048",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C727507",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "07-APR-18",
+                               "action": "",
+                               "desc": "Couldnt able to meet the customer since customer was very busy in meeting and told met call and come next week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410047",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C845624",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "07-APR-18",
+                               "action": "",
+                               "desc": "Just met the customer for any Opportunity, Customer will check with Mumbai team and will get back to us.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410046",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0001476",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "07-APR-18",
+                               "action": "",
+                               "desc": "On 5th March Met customer for trail shpts but cutomer is already dealing with current forwarder. Custome told me to call on 3 week of April for trial shpts.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180410042",
+                 "createddate": "10-APR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C892257",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "10-APR-18",
+                               "followupdate": "07-APR-18",
+                               "action": "",
+                               "desc": "Met customer on 5th March, Customer is running contract with current forwarder and they will send RFQ very shortly.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180407075",
+                 "createddate": "07-APR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C0039863",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "07-APR-18",
+                               "followupdate": "06-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl imports from China,I requested for enquiry.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180407072",
+                 "createddate": "07-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "PROSPECT",
+                 "custid": "C079919",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "07-APR-18",
+                               "followupdate": "06-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl exports to USA,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180407097",
+                 "createddate": "07-APR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C072576",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "07-APR-18",
+                               "followupdate": "06-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding theri lcl imports from China,I requested for enquiry.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180405201",
+                 "createddate": "05-APR-18",
+                 "type": "",
+                 "subtype": "SERVICE CALL",
+                 "custid": "C026141",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "05-APR-18",
+                               "followupdate": "09-MAY-18",
+                               "action": "SERVICE CALL",
+                               "desc": "Create a sample new call",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180407113",
+                 "createddate": "07-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "DEEP SELL / NEGOTIATION",
+                 "custid": "C942310",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "07-APR-18",
+                               "followupdate": "05-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their air imports from france and USA ,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180407102",
+                 "createddate": "07-APR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C953625",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "07-APR-18",
+                               "followupdate": "05-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding lcl imports from China and Korea,I requested for enquiry.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180404024",
+                 "createddate": "04-APR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C895825",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "04-APR-18",
+                               "followupdate": "03-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl imports from China,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180404023",
+                 "createddate": "04-APR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C627561",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "04-APR-18",
+                               "followupdate": "03-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl exports to middle east,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180404020",
+                 "createddate": "04-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "DEEP SELL / NEGOTIATION",
+                 "custid": "C985052",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "04-APR-18",
+                               "followupdate": "02-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl imports from China,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180404021",
+                 "createddate": "04-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "DEEP SELL / NEGOTIATION",
+                 "custid": "C964024",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "04-APR-18",
+                               "followupdate": "02-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl exports to africa,I requested for enquiry.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180404019",
+                 "createddate": "04-APR-18",
+                 "type": "EXISTING",
+                 "subtype": "DEEP SELL / NEGOTIATION",
+                 "custid": "C999591",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "04-APR-18",
+                               "followupdate": "02-APR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their air exports to Dammam,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180330201",
+                 "createddate": "30-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C0001336",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "30-MAR-18",
+                               "followupdate": "05-APR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "Test New Call",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180329201",
+                 "createddate": "29-MAR-18",
+                 "type": "NEW",
+                 "subtype": "",
+                 "custid": "C000147",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "30-MAR-18",
+                               "followupdate": "04-APR-18",
+                               "action": "IT SOLUTION CALL",
+                               "desc": "adadfddf",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180329278",
+                 "createddate": "29-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C964022",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "29-MAR-18",
+                               "followupdate": "29-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl exports to Sohar,I requested for booking",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180329276",
+                 "createddate": "29-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "PROSPECT",
+                 "custid": "C968317",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "29-MAR-18",
+                               "followupdate": "28-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding our quotation for fcl exports to Sohar,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180329279",
+                 "createddate": "29-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "CREDIT / COLLECTION CALL",
+                 "custid": "C746298",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "29-MAR-18",
+                               "followupdate": "28-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding our pending payment.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323104",
+                 "createddate": "23-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "PROSPECT",
+                 "custid": "C997043",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl imports from Shenzhen,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323105",
+                 "createddate": "23-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "PROSPECT",
+                 "custid": "C0051116",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl exports to USA,I requeted for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180326049",
+                 "createddate": "26-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C995763",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "26-MAR-18",
+                               "followupdate": "02-APR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "RFQ by April 1st week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180326083",
+                 "createddate": "26-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C998704",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "26-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "",
+                               "desc": "Met customer to collect the documents for the current shpts.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180326085",
+                 "createddate": "26-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C931106",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "26-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "",
+                               "desc": "Met customer for RFQ reason. Customer will forward the RFQ by next week.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180324002",
+                 "createddate": "24-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "CREDIT / COLLECTION CALL",
+                 "custid": "C0010519",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "24-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "QUOTATION / SOLUTION",
+                               "desc": "discussed with Mr.Somyajulu regarding long outstanding amount they agree to pay on next week with out further delay",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180324001",
+                 "createddate": "24-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "CLOSE",
+                 "custid": "C0009917",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "24-MAR-18",
+                               "followupdate": "22-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "customs clearence done at our HYD person and laden container from hyd cfs to consignee factory vizag and empty same deposit at hyd cfs and we will handed over our service to consignee very shortly etc., container 1x40'dc",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323108",
+                 "createddate": "23-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C978567",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "22-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl exports to Africa,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323107",
+                 "createddate": "23-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "DEEP SELL / NEGOTIATION",
+                 "custid": "C983891",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "22-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding our pending dues and i also requested further booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323106",
+                 "createddate": "23-MAR-18",
+                 "type": "NEW",
+                 "subtype": "NEGOTIATION",
+                 "custid": "C982113",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "22-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding our price bid for their FCL import customs clerance,Since they selected other forwarder,They returned our EMD.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321067",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C877655",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "21-MAR-18",
+                               "action": "",
+                               "desc": "",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321065",
+                 "createddate": "21-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "COURTESY / RELATIONSHIP CALL",
+                 "custid": "C111902",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "24-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Madhan reg sea export shipment from Chennaito MAlaysia, awaiting for booking",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321063",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C069923",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "29-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr.Seshadri reg sea exports shipments, awaiting for appoinments",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321062",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C673100",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "30-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with M/s. Kamachi reg sea import shipment from Taiwan,USA & Swizerland to chennai.",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321068",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C227496",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "21-MAR-18",
+                               "action": "",
+                               "desc": "",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323110",
+                 "createddate": "23-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C740970",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "21-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl imports from China,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323109",
+                 "createddate": "23-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C0039883",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "21-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl imports from China,I requested for enquiry.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180320147",
+                 "createddate": "20-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C077168",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "20-MAR-18",
+                               "followupdate": "21-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Ganes, awaiting for appoinments",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180320149",
+                 "createddate": "20-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C944685",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "20-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Mayakannan awaiting for appoinment",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180320146",
+                 "createddate": "20-MAR-18",
+                 "type": "NEW",
+                 "subtype": "APPROACH",
+                 "custid": "C905328",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "20-MAR-18",
+                               "followupdate": "23-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "awaiting for appoinments",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180320151",
+                 "createddate": "20-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "COURTESY / RELATIONSHIP CALL",
+                 "custid": "C079361",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "20-MAR-18",
+                               "followupdate": "27-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Kannan reg air & sea import shipments. awaiting for enquiry",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180323111",
+                 "createddate": "23-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "PROSPECT",
+                 "custid": "C964022",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "23-MAR-18",
+                               "followupdate": "20-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl exports to Sohar,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321034",
+                 "createddate": "21-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "NEGOTIATION",
+                 "custid": "C968317",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "20-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding our quotation for fcl exports to Sohar,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321035",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C733993",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "20-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their fcl imports from China,I requested for booking.",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321032",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C0057540",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "19-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl imports from China,I requested for enquiry,",
+                               "mode": ""
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180320153",
+                 "createddate": "20-MAR-18",
+                 "type": "EXISTING",
+                 "subtype": "CREDIT / COLLECTION CALL",
+                 "custid": "C0023144",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "20-MAR-18",
+                               "followupdate": "30-MAR-18",
+                               "action": "FOLLOW-UP",
+                               "desc": "Discussed with Mr. Ebi George reg air import shipment from HKG to MAA and payments",
+                               "mode": "VISIT"
+                               }
+                               ]
+                 },
+                 {
+                 "callid": "20180321033",
+                 "createddate": "21-MAR-18",
+                 "type": "NEW",
+                 "subtype": "PROSPECT",
+                 "custid": "C0056880",
+                 "ispotentialclient": "Yes",
+                 "followups": [
+                               {
+                               "updateddate": "21-MAR-18",
+                               "followupdate": "19-MAR-18",
+                               "action": "",
+                               "desc": "Discussed with customer regarding their lcl imports from China.I requested for enquriy.",
+                               "mode": ""
+                               }
+                               ]
+                 }
+                 ],
+    "callcount": [
+                  {
+                  "date": "12-APR-18",
+                  "deviatedcount": "8",
+                  "completedplannedcalls": "8"
+                  },
+                  {
+                  "date": "25-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "20-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "20-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "18-APR-18",
+                  "deviatedcount": "3",
+                  "completedplannedcalls": "3"
+                  },
+                  {
+                  "date": "11-APR-18",
+                  "deviatedcount": "4",
+                  "completedplannedcalls": "4"
+                  },
+                  {
+                  "date": "17-APR-18",
+                  "deviatedcount": "1",
+                  "completedplannedcalls": "1"
+                  },
+                  {
+                  "date": "16-APR-18",
+                  "deviatedcount": "1",
+                  "completedplannedcalls": "1"
+                  },
+                  {
+                  "date": "17-APR-18",
+                  "deviatedcount": "1",
+                  "completedplannedcalls": "1"
+                  },
+                  {
+                  "date": "20-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "20-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "19-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "11-APR-18",
+                  "deviatedcount": "1",
+                  "completedplannedcalls": "1"
+                  },
+                  {
+                  "date": "17-APR-18",
+                  "deviatedcount": "1",
+                  "completedplannedcalls": "1"
+                  },
+                  {
+                  "date": "16-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "19-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "11-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "20-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  },
+                  {
+                  "date": "13-APR-18",
+                  "deviatedcount": "6",
+                  "completedplannedcalls": "6"
+                  },
+                  {
+                  "date": "23-APR-18",
+                  "deviatedcount": "",
+                  "completedplannedcalls": ""
+                  }
+                  ]
+}

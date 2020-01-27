@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="listCell" rowHeight="52" id="KGk-i7-Jjw" customClass="ListTableViewCell" customModule="CallEntry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tly-Qs-Vcf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrival" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cov-Od-bRn">
+                                <rect key="frame" x="30" y="14" width="57" height="24"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nextArrowGrey" translatesAutoresizingMaskIntoConstraints="NO" id="hr3-re-5Iu">
+                                <rect key="frame" x="283" y="19" width="13" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="jwS-ma-ggc"/>
+                                    <constraint firstAttribute="width" constant="13" id="uWu-Qn-zIX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hr3-re-5Iu" firstAttribute="centerY" secondItem="Tly-Qs-Vcf" secondAttribute="centerY" id="AP6-nu-Sc2"/>
+                            <constraint firstItem="hr3-re-5Iu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Cov-Od-bRn" secondAttribute="trailing" constant="23" id="FZQ-gj-wbN"/>
+                            <constraint firstItem="Cov-Od-bRn" firstAttribute="leading" secondItem="Tly-Qs-Vcf" secondAttribute="leading" constant="30" id="Ji4-C7-dM7"/>
+                            <constraint firstItem="Cov-Od-bRn" firstAttribute="centerY" secondItem="Tly-Qs-Vcf" secondAttribute="centerY" id="egz-QH-eR4"/>
+                            <constraint firstAttribute="bottom" secondItem="Cov-Od-bRn" secondAttribute="bottom" constant="14" id="khH-Ly-i4B"/>
+                            <constraint firstItem="Cov-Od-bRn" firstAttribute="top" secondItem="Tly-Qs-Vcf" secondAttribute="top" constant="14" id="r07-k2-iQr"/>
+                            <constraint firstAttribute="trailing" secondItem="hr3-re-5Iu" secondAttribute="trailing" constant="24" id="xvZ-dj-aa9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Tly-Qs-Vcf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="03l-sC-l0b"/>
+                    <constraint firstAttribute="trailing" secondItem="Tly-Qs-Vcf" secondAttribute="trailing" id="EdF-6L-nRU"/>
+                    <constraint firstAttribute="bottom" secondItem="Tly-Qs-Vcf" secondAttribute="bottom" constant="-0.5" id="P6V-hp-Kb0"/>
+                    <constraint firstItem="Tly-Qs-Vcf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="o8G-21-12U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="Cov-Od-bRn" id="ile-e1-JKu"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="152.92353823088456"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="nextArrowGrey" width="17" height="29"/>
+    </resources>
+</document>

@@ -1,0 +1,172 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipments":[
+  {
+    "custid": "C160596",
+    "history": [
+      {
+        "shipmentno": "#170118000009",
+        "date": "23/01/2018 ",
+        "segment":"Air",
+        "type":"IMPORT",
+        "origin":"FRANKFURT",
+        "destination":"DUBAI",
+        "etd": "25/02/2018",
+        "eta": "28/04/2018",
+        "bookingperson": "Andrew Thomson",
+        "update": "Follow up for ETA jebel ali"
+      },
+      {      
+        "shipmentno": "#160118000099",
+        "date": "10/12/2017 ",
+        "segment":"Air",
+        "type":"IMPORT",
+        "origin":"FRANKFURT",
+        "destination":"DUBAI",
+        "etd": "15/01/2018",
+        "eta": "15/03/2018",
+        "bookingperson": "Rafiq Ahmed",
+        "update": "FSL Remarks ETA to be tracked"
+      }
+    ]
+  },
+   {
+    "custid": "C144158",
+    "history": [
+      {
+        "shipmentno": "120608000062",
+        "date": "31/01/2018 ",
+        "segment": "FCL",
+        "type": "IMPORT",
+        "origin": "GENOA",
+        "destination": "JEBEL ALI(DUBAI)",
+        "etd": "21/01/2018",
+        "eta": "20/03/2018",
+        "bookingperson": "Sukumar",
+        "update": "Cargo Received Confirmation"
+      },
+      {
+        "shipmentno": "120608000876",
+        "date": "30/01/2018 ",
+        "segment": "FCL",
+        "type": "IMPORT",
+        "origin": "GENOA",
+        "destination": "JEBEL ALI(DUBAI)",
+        "etd": "2/02/2018",
+        "eta": "10/04/2018",
+        "bookingperson": "Sukumar",
+        "update": "Cargo Received Confirmation"
+      }
+    ]
+  },
+  {
+    "custid": "C150730",
+    "history": [
+      {
+        "shipmentno": "#180118000386 ",
+        "date": "29/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "N",
+        "origin": "MILAN (MALPENSA)",
+        "destination": "DUBAI",
+        "etd": "31/01/2018",
+        "eta": "31/03/2018",
+        "bookingperson": "Rajesh",
+        "update": "Expected time of cargo will be end of march"
+      }
+    ]
+  },
+  {
+    "custid":"C150983",
+    "history": [
+      {
+        "shipmentno": "#190118000023  ",
+        "date": "22/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "N",
+          "origin": "MILAN (MALPENSA)",
+          "destination": "DUBAI",
+        "etd": "31/01/2018",
+        "eta": "31/04/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Cargo Depatured from Origin"
+      }
+    ]
+  },
+  {
+    "custid":"C207241",
+    "history": [
+      {
+        "shipmentno": "#190118000023  ",
+        "date": "21/01/2018 ",
+        "segment": "Air",
+          "type": "EXPORT",
+          "period": "M",
+          "origin": "DUBAI",
+          "destination": "KUWAIT",
+        "etd": "23/01/2018",
+        "eta": "25/04/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Clearance Pending in Customs"
+      }
+    ]
+  },
+  {
+    "custid":"C841308",
+    "history": [
+      {
+        "shipmentno": "#190118000023  ",
+        "date": "20/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "M",
+          "origin": "LONDON HEATHROW",
+          "destination": "DUBAI",
+        "etd": "23/02/2018",
+        "eta": "25/05/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Cargo Clearance is pending"
+      }
+    ]
+  },
+  {
+    "custid":"C161578",
+    "history": [
+      {
+        "shipmentno": "#130118000043  ",
+        "date": "15/01/2018 ",
+         "segment": "Air",
+          "type": "IMPORT",
+          "period": "M",
+          "origin": "LONDON HEATHROW",
+          "destination": "DUBAI",
+        "etd": "23/02/2018",
+        "eta": "25/05/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Cargo Clearance is pending"
+      }
+    ]
+  },
+  {
+    "custid":"C159755",
+    "history": [
+      {
+        "shipmentno": "#210118000001  ",
+        "date": "15/01/2018 ",
+         "segment": "LCL",
+          "type": "EXPORT",
+          "period": "M",
+          "origin": "MILAN (MALPENSA)",
+          "destination": "DUBAI",
+        "etd": "28/02/2018",
+        "eta": "29/05/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Cargo Clearance is completed"
+      }
+    ]
+  }
+   ]
+}

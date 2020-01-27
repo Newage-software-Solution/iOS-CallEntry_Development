@@ -1,0 +1,191 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "calllist": [
+    {
+      "callid": "001",
+      "createddate": "28/02/2018",
+      "type": "New",
+      "subtype": "PROSPECT",
+      "custid": "C207241",
+      "ispotentialclient": "Yes",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "08/03/2018",
+          "action": "QUOTATION / SOLUTION",
+          "desc": "Customer will be requested for the Quotation",
+          "mode": "Visit"
+        }
+      ]
+    },
+    {
+      "callid": "002",
+      "createddate": "28/02/2018",
+      "type": "New",
+      "subtype": "SUSPECT",
+      "custid": "C160596",
+      "ispotentialclient": "Yes",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "09/03/2018",
+          "action": "TRANSITION CALL",
+          "desc": "Customer will be requested for the Service Call",
+          "mode": "Visit"
+        }
+    ]
+    },
+    {
+      "callid": "003",
+      "createddate": "28/02/2018",
+      "type": "New",
+      "subtype": "APPROACH",
+      "custid": "C144158",
+      "ispotentialclient": "Yes",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "10/03/2018",
+          "action": "FOLLOW-UP",
+          "desc": "Customer will be requested for the Logistic demo",
+          "mode": "Visit"
+        },
+        {
+          "updateddate": "12/02/2018",
+          "followupdate": "11/02/2018",
+          "action": "TRANSITION CALL",
+          "desc": "Customer will be requested for the Joint Call",
+          "mode": "Visit"
+        },
+        {
+          "updateddate": "10/03/2018",
+          "followupdate": "09/02/2018",
+          "action": "JOINT CALL",
+          "desc": "Customer will be requested for the Logistic demo",
+          "mode": "Visit"
+        }
+      ]
+    },
+    {
+      "callid": "004",
+      "createddate": "15/12/2017",
+      "type": "New",
+      "subtype": "SUSPECT",
+      "custid": "C150730",
+      "ispotentialclient": "Yes",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "11/03/2018",
+          "action": "NEED ASSEMENT CALL",
+          "desc": "Customer will be requested for the Quotation",
+          "mode": "Visit"
+        },
+       {
+          "updateddate": "07/02/2018",
+          "followupdate": "07/02/2018",
+          "action": "TRANSITION CALL",
+          "desc": "Customer will be requested for the Joint Call",
+          "mode": "Visit"
+        },
+        {
+          "updateddate": "04/02/2018",
+          "followupdate": "02/02/2018",
+          "action": "JOINT CALL",
+          "desc": "Customer will be requested for the Logistic demo",
+          "mode": "Visit"
+        }
+      ]
+    },
+    {
+      "callid": "005",
+      "createddate": "15/12/2017",
+      "type": "New",
+      "subtype": "SERVICE CALL",
+      "custid": "C150983",
+      "ispotentialclient": "No",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "20/03/2018",
+          "action": "IT SOLUTION CALL",
+          "desc": "Customer will be requested for the IT Solution",
+          "mode": "Call"
+        }
+      ]
+    },
+    {
+      "callid": "006",
+      "createddate": "15/12/2017",
+      "type": "New",
+      "subtype": "PROSPECT",
+      "custid": "C159755",
+      "ispotentialclient": "No",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "23/03/2018",
+          "action": "QUOTATION / SOLUTION",
+          "desc": "Customer will be requested for the Quotation",
+          "mode": "Mail"
+        },
+     {
+          "updateddate": "28/02/2018",
+          "followupdate": "28/02/2018",
+          "action": "TRANSITION CALL",
+          "desc": "Customer will be requested for the Joint Call",
+          "mode": "Visit"
+        },
+        {
+          "updateddate": "24/01/2018",
+          "followupdate": "20/01/2018",
+          "action": "JOINT CALL",
+          "desc": "Customer will be requested for the Logistic demo",
+          "mode": "Visit"
+        }
+      ]
+    },
+    {
+      "callid": "007",
+      "createddate": "15/12/2017",
+      "type": "New",
+      "subtype": "TRANSITION",
+      "custid": "C207241",
+      "ispotentialclient": "Yes",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "24/03/2018",
+          "action": "TRANSITION CALL",
+          "desc": "Customer will be requested for the Service Call",
+          "mode": "Mail"
+        }
+      ]
+    },
+    {
+      "callid": "008",
+      "createddate": "15/12/2017",
+      "type": "New",
+      "subtype": "APPROACH",
+      "custid": "C160596",
+      "ispotentialclient": "Yes",
+      "followups": [
+        {
+          "updateddate": "",
+          "followupdate": "03/03/2018",
+          "action": "FOLLOW-UP",
+          "desc": "Customer will be requested for the Logistic demo",
+          "mode": "Visit"
+        },
+        {
+          "updateddate": "21/01/2018",
+          "followupdate": "21/01/2018",
+          "action": "TRANSITION CALL",
+          "desc": "Customer will be requested for the Logistic demo",
+          "mode": "Visit"
+        }
+      ]
+    }
+  ]
+}

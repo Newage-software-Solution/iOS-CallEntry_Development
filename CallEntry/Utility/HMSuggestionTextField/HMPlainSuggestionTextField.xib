@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMPlainSuggestionTextField" customModule="FrieghtSystem" customModuleProvider="target">
+            <connections>
+                <outlet property="heightConstraintForTableViewSuggestion" destination="j52-Fw-OAv" id="s02-Q1-HUA"/>
+                <outlet property="imgViewSearch" destination="Wal-iA-X9a" id="YAK-W2-X0S"/>
+                <outlet property="tblViewSuggestion" destination="e2f-Ym-Tua" id="1i7-BT-sWb"/>
+                <outlet property="textField" destination="b2K-sL-s99" id="f1d-0b-Xsg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter HBL Number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="b2K-sL-s99">
+                    <rect key="frame" x="41" y="15" width="346" height="15"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="TCg-Io-1WR"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="6QU-gT-0V8"/>
+                    </connections>
+                </textField>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e2f-Ym-Tua">
+                    <rect key="frame" x="0.0" y="44" width="387" height="0.0"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="j52-Fw-OAv"/>
+                    </constraints>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="tD6-DT-gN3"/>
+                        <outlet property="delegate" destination="-1" id="laA-BG-wHb"/>
+                    </connections>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wal-iA-X9a">
+                    <rect key="frame" x="12" y="15" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="7tL-mC-Rsb"/>
+                        <constraint firstAttribute="width" constant="15" id="lCm-wc-mMh"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Wal-iA-X9a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="9tw-lP-P8N"/>
+                <constraint firstItem="e2f-Ym-Tua" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AQS-Fr-LRX"/>
+                <constraint firstItem="b2K-sL-s99" firstAttribute="leading" secondItem="Wal-iA-X9a" secondAttribute="trailing" constant="14" id="VZC-wO-9mi"/>
+                <constraint firstAttribute="trailing" secondItem="e2f-Ym-Tua" secondAttribute="trailing" id="fGN-o7-x3b"/>
+                <constraint firstItem="b2K-sL-s99" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="qbI-ni-hI4"/>
+                <constraint firstItem="e2f-Ym-Tua" firstAttribute="top" secondItem="b2K-sL-s99" secondAttribute="bottom" constant="14" id="sil-5Q-BUI"/>
+                <constraint firstAttribute="trailing" secondItem="b2K-sL-s99" secondAttribute="trailing" id="tGH-WO-SGN"/>
+                <constraint firstItem="Wal-iA-X9a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="x13-ez-jz1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="30.5" y="366.5"/>
+        </view>
+    </objects>
+</document>

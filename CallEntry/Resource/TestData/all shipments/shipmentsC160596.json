@@ -1,0 +1,34 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipments":
+  {
+    "custid": "C160596",
+    "history": [
+      {
+        "shipmentno": "#170118000009",
+        "date": "23/01/2018 ",
+        "segment":"Air",
+        "type":"IMPORT",
+        "origin":"FRANKFURT",
+        "destination":"DUBAI",
+        "etd": "25/02/2018",
+        "eta": "28/04/2018",
+        "bookingperson": "Andrew Thomson",
+        "update": "Follow up for ETA jebel ali"
+      },
+      {      
+        "shipmentno": "#160118000099",
+        "date": "10/12/2017 ",
+        "segment":"Air",
+        "type":"IMPORT",
+        "origin":"FRANKFURT",
+        "destination":"DUBAI",
+        "etd": "15/01/2018",
+        "eta": "15/03/2018",
+        "bookingperson": "Rafiq Ahmed",
+        "update": "FSL Remarks ETA to be tracked"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "statuscode": "200",
+  "statusmessage": "Success",
+  "customerlist": [
+    {
+      "custid": "C000746",
+      "name": "SOCCER INTERNATIONAL PVT.LTD.-JALANDHAR",
+      "address": "",
+      "territory": "",
+      "city": "JALANDHAR",
+      "country": "INDIA",
+      "phoneno": "",
+      "mobileno": "",
+      "emailid": "",
+      "contactperson": "",
+      "potentialforwarehousing": "No",
+      "potentialforclearance": "No",
+      "salesman": "N",
+      "profile": [
+        {
+          "profileid": "TEST",
+          "segment": "02",
+          "type": "TEST",
+          "period": "TEST",
+          "origin": "TEST",
+          "destination": "TEST",
+          "tos": "TEST",
+          "commoditygroup": "TEST",
+          "noofshipments": "TEST",
+          "volume": "TEST",
+          "currentpotential": "TEST",
+          "estimatedrevenue": "TEST",
+          "closuredate": "TEST"
+        }
+      ],
+      "callhistory": [
+        {
+          "calldate": "22-OCT-19",
+          "mode": "CALL"
+        }
+      ]
+    }
+  ]
+}

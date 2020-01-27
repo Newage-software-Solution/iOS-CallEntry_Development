@@ -1,0 +1,46 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "salesmanlist": [
+    {
+      "userid": "1001",
+      "username": "Suresh"
+    },
+    {
+      "userid": "1002",
+      "username": "Siva"
+    },
+    {
+      "userid" : "1003",
+      "username" : "Rajasekar"
+    },
+    {
+      "userid" : "1004",
+      "username" : "Gowtham"
+    },
+    {
+      "userid" : "1005",
+      "username" : "Balaji"
+    },
+    {
+      "userid" : "1006",
+      "username" : "Mukesh"
+    },
+    {
+      "userid" : "1007",
+      "username" : "Shivasankar"
+    },
+    {
+      "userid" : "1008",
+      "username" : "Gengarajan"
+    },
+    {
+      "userid" : "1009",
+      "username" : "nandakumar"
+    },
+    {
+      "userid" : "1010",
+      "username" : "ithayakumar"
+    }
+  ]
+}

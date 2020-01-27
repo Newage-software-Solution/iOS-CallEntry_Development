@@ -1,0 +1,36 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipments":
+ {
+    "custid":"C161578",
+    "history": [
+      {
+        "shipmentno": "#130118000043  ",
+        "date": "15/01/2018 ",
+         "segment": "Air",
+          "type": "IMPORT",
+          "period": "M",
+          "origin": "LONDON HEATHROW",
+          "destination": "DUBAI",
+        "etd": "23/02/2018",
+        "eta": "25/05/2018",
+        "bookingperson": "Balaji",
+        "update": "Ready to Depature"
+      },
+      {
+        "shipmentno": "#090118000043  ",
+        "date": "15/12/2017 ",
+         "segment": "Air",
+          "type": "IMPORT",
+          "period": "M",
+          "origin": "LONDON HEATHROW",
+          "destination": "DUBAI",
+        "etd": "23/04/2018",
+        "eta": "25/06/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Depature will be on Next month"
+      }
+    ]
+  }
+}

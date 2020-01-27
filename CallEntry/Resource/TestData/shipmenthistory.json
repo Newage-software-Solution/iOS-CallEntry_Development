@@ -1,0 +1,21 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipment": {
+    "custid": "1",
+    "history": [
+      {
+        "shipmentno": "120608000062",
+        "date": "20/01/2018",
+        "segment": "AIR",
+        "type": "IMPORT",
+        "origin": "KUWAITH",
+        "destination": "CHENNAI",
+        "etd": "21/01/2018",
+        "eta": "20/03/2018",
+        "bookingperson": "Sukumar",
+        "update": "Cargo Received Confirmation"
+      }
+    ]
+  }
+}

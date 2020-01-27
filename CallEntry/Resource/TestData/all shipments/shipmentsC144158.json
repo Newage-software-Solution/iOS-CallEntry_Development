@@ -1,0 +1,34 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipments":
+ {
+    "custid": "C144158",
+    "history": [
+      {
+        "shipmentno": "120608000062",
+        "date": "31/01/2018 ",
+        "segment": "FCL",
+        "type": "IMPORT",
+        "origin": "GENOA",
+        "destination": "JEBEL ALI(DUBAI)",
+        "etd": "21/01/2018",
+        "eta": "20/03/2018",
+        "bookingperson": "Sukumar",
+        "update": "Cargo Received Confirmation"
+      },
+      {
+        "shipmentno": "120608000876",
+        "date": "30/01/2018 ",
+        "segment": "FCL",
+        "type": "IMPORT",
+        "origin": "GENOA",
+        "destination": "JEBEL ALI(DUBAI)",
+        "etd": "2/02/2018",
+        "eta": "10/04/2018",
+        "bookingperson": "Ramanathan",
+        "update": "Clearance complete from customs"
+      }
+    ]
+  }
+}

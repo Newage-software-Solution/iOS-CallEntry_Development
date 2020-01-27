@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMCompoField" customModule="MyCheerTribe" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDone" destination="aqb-i8-RAy" id="bbC-s6-w96"/>
+                <outlet property="datePicker" destination="v0n-O7-2cg" id="tkp-7K-VJ2"/>
+                <outlet property="headerView" destination="Ohl-S4-FxZ" id="nMN-zo-w4b"/>
+                <outlet property="picker" destination="bDf-sW-Ma4" id="2Mb-R8-Vuu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDf-sW-Ma4">
+                    <rect key="frame" x="0.0" y="44" width="320" height="171"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration" label="picker_compo_field">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Iet-Z9-iim"/>
+                        <outlet property="delegate" destination="-1" id="h8i-79-AwW"/>
+                    </connections>
+                </pickerView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ohl-S4-FxZ" customClass="HMColorHeaderView" customModule="MyCheerTribe" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqb-i8-RAy">
+                            <rect key="frame" x="275" y="0.0" width="45" height="45"/>
+                            <accessibility key="accessibilityConfiguration" label="btn_picker_done"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="4Zh-dq-ZYh"/>
+                                <constraint firstAttribute="height" constant="45" id="x2O-N7-o0H"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" image="tick"/>
+                            <connections>
+                                <action selector="doneActionWithSender:" destination="-1" eventType="touchUpInside" id="iPz-U0-JYJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="aqb-i8-RAy" firstAttribute="top" secondItem="Ohl-S4-FxZ" secondAttribute="top" id="4Bk-Wy-C8h"/>
+                        <constraint firstAttribute="trailing" secondItem="aqb-i8-RAy" secondAttribute="trailing" id="9fT-g1-RrF"/>
+                        <constraint firstAttribute="height" constant="45" id="bZ4-4x-9Gf"/>
+                    </constraints>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="v0n-O7-2cg">
+                    <rect key="frame" x="0.0" y="44" width="320" height="171"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <date key="date" timeIntervalSinceReferenceDate="455455829.80043">
+                        <!--2015-06-08 11:30:29 +0000-->
+                    </date>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v0n-O7-2cg" secondAttribute="bottom" id="3vU-qf-RjR"/>
+                <constraint firstItem="Ohl-S4-FxZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="B01-19-s8C"/>
+                <constraint firstItem="v0n-O7-2cg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ClB-Wh-S7P"/>
+                <constraint firstItem="bDf-sW-Ma4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="EXP-tb-Cap"/>
+                <constraint firstItem="bDf-sW-Ma4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="J7l-rg-m6c"/>
+                <constraint firstAttribute="bottom" secondItem="bDf-sW-Ma4" secondAttribute="bottom" id="VbV-K4-YUr"/>
+                <constraint firstAttribute="trailing" secondItem="v0n-O7-2cg" secondAttribute="trailing" id="Vs6-cO-MKQ"/>
+                <constraint firstItem="v0n-O7-2cg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="frc-rI-hZ9"/>
+                <constraint firstItem="Ohl-S4-FxZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="l9H-uD-ujk"/>
+                <constraint firstAttribute="trailing" secondItem="Ohl-S4-FxZ" secondAttribute="trailing" id="rS3-AP-Zd8"/>
+                <constraint firstAttribute="trailing" secondItem="bDf-sW-Ma4" secondAttribute="trailing" id="uE2-Cg-2Zl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="265" y="342.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tick" width="22" height="15"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

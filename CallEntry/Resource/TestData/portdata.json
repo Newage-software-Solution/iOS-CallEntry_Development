@@ -1,0 +1,16 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "portdata": {
+    "segments": [
+      "AIR",
+      "FCL",
+      "LCL"
+    ],
+    "port": [
+      "CHENNAI",
+      "KUWAIT",
+      "SINGAPORE"
+    ]
+  }
+}

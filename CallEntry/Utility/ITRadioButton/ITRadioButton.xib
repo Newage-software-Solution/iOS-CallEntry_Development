@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ITRadioButton" customModule="CallEntry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="110" height="21"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R7c-JA-3gw">
+                    <rect key="frame" x="0.0" y="4" width="13" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="1eC-6J-oUS"/>
+                        <constraint firstAttribute="width" constant="13" id="cO0-Vk-F6t"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7P-uo-ISl">
+                    <rect key="frame" x="22" y="0.0" width="88" height="21"/>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                    <color key="textColor" red="0.15294117647058825" green="0.15294117647058825" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJg-4m-Lub">
+                    <rect key="frame" x="0.0" y="0.0" width="110" height="21"/>
+                    <connections>
+                        <action selector="radioButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="pV8-aJ-uUb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cJg-4m-Lub" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A31-50-6w6"/>
+                <constraint firstItem="R7c-JA-3gw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Afb-b4-asb"/>
+                <constraint firstAttribute="bottom" secondItem="Y7P-uo-ISl" secondAttribute="bottom" id="DEj-Et-tEi"/>
+                <constraint firstItem="cJg-4m-Lub" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="He6-76-5Z3"/>
+                <constraint firstAttribute="trailing" secondItem="cJg-4m-Lub" secondAttribute="trailing" id="I40-dL-Arm"/>
+                <constraint firstAttribute="trailing" secondItem="Y7P-uo-ISl" secondAttribute="trailing" id="Qor-Zz-5FT"/>
+                <constraint firstItem="Y7P-uo-ISl" firstAttribute="leading" secondItem="R7c-JA-3gw" secondAttribute="trailing" constant="9" id="Uk6-a2-Gqn"/>
+                <constraint firstItem="R7c-JA-3gw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="doI-au-WFJ"/>
+                <constraint firstAttribute="bottom" secondItem="cJg-4m-Lub" secondAttribute="bottom" id="ejs-Jd-9ET"/>
+                <constraint firstItem="Y7P-uo-ISl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hbo-Pe-IXn"/>
+                <constraint firstItem="R7c-JA-3gw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rJU-mn-9Eg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnTitle" destination="Y7P-uo-ISl" id="90D-eR-xyN"/>
+                <outlet property="imageView" destination="R7c-JA-3gw" id="ekZ-5q-EuD"/>
+                <outlet property="radioButton" destination="cJg-4m-Lub" id="OBQ-cz-nyL"/>
+            </connections>
+            <point key="canvasLocation" x="13" y="-310"/>
+        </view>
+    </objects>
+</document>

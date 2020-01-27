@@ -1,0 +1,36 @@
+{
+  "statuscode": 200,
+  "statusmessage": "Success",
+  "shipments":
+ {
+    "custid":"C150983",
+    "history": [
+      {
+        "shipmentno": "#190118000023  ",
+        "date": "22/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "N",
+          "origin": "MILAN (MALPENSA)",
+          "destination": "DUBAI",
+        "etd": "31/01/2018",
+        "eta": "31/04/2018",
+        "bookingperson": "Sheriff Ahmed",
+        "update": "Cargo Depature to Origin"
+      },
+       {
+        "shipmentno": "#140128001069  ",
+        "date": "23/01/2018 ",
+        "segment": "Air",
+          "type": "IMPORT",
+          "period": "N",
+          "origin": "MILAN (MALPENSA)",
+          "destination": "DUBAI",
+        "etd": "26/01/2018",
+        "eta": "31/03/2018",
+        "bookingperson": "Zubair Khan",
+        "update": "Cargo arrived from Origin"
+      }
+    ]
+  }
+}
